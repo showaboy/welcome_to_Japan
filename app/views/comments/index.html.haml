@@ -1,17 +1,23 @@
 %p#notice= notice
 .wrapper
   .main-title
-    Welcome to Japan
+    =t'.Welcome to Japan'
   .main-menu
     .main-menu-title
-      Menu
+      =t'.Menu'
     .main-menu-items
       %ol
-        %li Eating
-        %li Shopping
-        %li Bathing(Hot spring)
-        %li Traveling(Transport)
-        %li Invited(House party)
+        %li 
+          =t'.Eating'
+        %li 
+          =t'.Shopping'
+        %li 
+          =t'.Bathing(Hot spring)'
+        %li 
+          =t'.Traveling(Transport)'
+        %li 
+          =t'.Invited(House party)'
+          
     .main-menu-comments
       = link_to 'New Comment', new_comment_path
   .contents

@@ -1,0 +1,10 @@
+en:                              ## 言語名
+  dictionary:                    ## 共通系であることを示す
+    Welcome to Japan: "Welcome to Japan"
+    Menu: "Menu"
+    Eating: "Eating"
+    Shopping: "Shopping"
+    Bathing(Hot spring): "Bathing(Hot spring)"
+    Traveling(Transport): "Traveling(Transport)"
+    Invited(House party): "Invited(House party)"
+    New Comment: "New Comment"

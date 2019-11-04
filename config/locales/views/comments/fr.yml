@@ -1,0 +1,10 @@
+fr:                              ## 言語名
+  dictionary:                    ## 共通系であることを示す
+    Welcome to Japan: "Bienvenue au Japan"
+    Menu: "Menu"
+    Eating: "A table"
+    Shopping: "Au magasin"
+    Bathing(Hot spring): "Au bain"
+    Traveling(Transport): "Au transport"
+    Invited(House party): "Chez des amis"
+    New Comment: "Nouveau Commentaire"

@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources :comments
+  resource :comment
   root 'comments#index'  
 end

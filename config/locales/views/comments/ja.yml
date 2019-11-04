@@ -1,0 +1,10 @@
+ja:                              ## 言語名
+  dictionary:                    ## 共通系であることを示す
+    Welcome to Japan: "日本へようこそ"
+    Menu: "メニュー"
+    Eating: "食事にて"
+    Shopping: "ショッピングにて"
+    Bathing(Hot spring): "温泉にて"
+    Traveling(Transport): "移動にて"
+    Invited(House party): "ホームパティーにて"
+    New Comment: "コメント作成"
