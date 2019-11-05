@@ -1,6 +1,6 @@
 fr:
   comments:                              ## 言語名
-    index:                    ## 共通系であることを示す
+    show:                    ## 共通系であることを示す
       title: "Bienvenue au Japan"
       Menu: "Menu"
       Eating: "A table"

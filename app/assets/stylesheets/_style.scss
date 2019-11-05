@@ -18,9 +18,65 @@ body,html {
   background-image: url("sakura.jpg");
   background-size: cover;
   color : #33CCFF;
-  font-size: 70px;
+  font-size: 115px;
   text-align: center;
-  line-height:200px;
+  display:flex;
+  & p{
+    width:1100px;
+    line-height: 200px;
+    padding-left: 10px;
+  }
+}
+
+ul.langugage-selection{
+  list-style-type: none;
+  margin: 20px 10px 0 15px;
+  width: 280px;
+}
+
+ul.langugage-selection li{
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.langugage-selection li a {
+  display: block;
+  margin: 0;
+  padding: 15px 5px 15px 11px;
+  color: #fff;
+  background: #FFABCE;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+ul.langugage-selection li ul{
+  position: absolute;
+  list-style: none;
+  z-index: 9999;
+  display: none;
+}
+
+ul.langugage-selection li:hover ul{
+  display: block;
+}
+
+ul.langugage-selection li ul li{
+  width:70%;
+}
+
+ul.langugage-selection li ul li a{
+  padding: 13px 15px;
+  border-top: 2px solid #FFEEFF;
+  background:  #FFABCE;
+  text-align: left;
+}
+
+ul.langugage-selection li:hover > a{
+  background:#FF5192;
 }
 
 .main-menu{

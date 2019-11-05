@@ -1,31 +1,41 @@
 %p#notice= notice
 .wrapper
   .main-title
-    =t'.Welcome to Japan'
+    %p.main-title__text
+      = t '.title'
+    %ul.langugage-selection
+      %li 
+        %a{:href =>''} LANGUAGE/言語選択/LANGUE
+        %ul
+          %li.english__button
+            = link_to "English", root_path(locale: 'en')
+          %li.japanses__button
+            = link_to "日本語", root_path(locale: 'ja')
+          %li.french__button
+            = link_to "Français", root_path(locale: 'fr')
   .main-menu
     .main-menu-title
-      =t'.Menu'
+      =t '.Menu'
     .main-menu-items
       %ol
         %li 
-          =t'.Eating'
+          =t '.Eating'
         %li 
-          =t'.Shopping'
+          =t '.Shopping'
         %li 
-          =t'.Bathing(Hot spring)'
+          =t '.Bathing'
         %li 
-          =t'.Traveling(Transport)'
+          =t '.Traveling'
         %li 
-          =t'.Invited(House party)'
-          
+          =t '.Invited'
     .main-menu-comments
-      = link_to 'New Comment', new_comment_path
+      -# = link_to "New Comment", new_comment_path
   .contents
   
-    - @comments.each do |comment|
-      %tr
-        %td= comment.name
-        %td= comment.content
-        %td= link_to 'Show', comment
-        %td= link_to 'Edit', edit_comment_path(comment)
-        %td= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' }
+    -# - @comments.each do |comment|
+    -#   %tr
+    -#     %td= comment.name
+    -#     %td= comment.content
+    -#     %td= link_to 'Show', comment
+    -#     %td= link_to 'Edit', edit_comment_path(comment)
+    -#     %td= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' }

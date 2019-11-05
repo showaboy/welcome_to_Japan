@@ -1,6 +1,6 @@
 ja:
-  comments:                              ## 言語名
-    index:  
+  comments:                            ## 言語名
+    show:                    ## 共通系であることを示す
       title: "日本へようこそ"
       Menu: "メニュー"
       Eating: "食事にて"
@@ -8,4 +8,4 @@ ja:
       Bathing: "温泉にて"
       Traveling: "移動にて"
       Invited: "ホームパティーにて"
-      # New Comment: "コメント作成"
+      New Comment: "コメント作成"

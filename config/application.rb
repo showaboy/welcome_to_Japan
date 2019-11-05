@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module WelcomeToJapan
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 5.2
+
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}').to_s]
 
     # アプリケーションが対応している言語のホワイトリスト(ja = 日本語, en = 英語)
