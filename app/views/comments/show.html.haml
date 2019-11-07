@@ -1,34 +1,141 @@
-%p#notice= notice
 .wrapper
-  .main-title
-    = t'.title'
-  .main-menu
-    .main-menu-title
-      =t '.Menu'
-    .main-menu-items
-      %ol
-        %li 
-          =t '.Eating'
-        %li 
-          =t '.Shopping'
-        %li 
-          =t '.Bathing'
-        %li 
-          =t '.Traveling'
-        %li 
-          =t '.Invited'
-    .main-menu-comments
-      = link_to "New Comment", new_comment_path
-  .contents
-    = t '.hello'
-  
--# %p#notice= notice
--# %p
--#   %strong Name:
--#   = @comment.name
--# %p
--#   %strong Content:
--#   = @comment.content
--# = link_to 'Edit', edit_comment_path(@comment)
--# |
--# = link_to 'Back', comments_path
+  = render 'menu'
+  .contents 
+    - if @id == "1"
+      .contents-header
+        .contents-header__left
+          = image_tag 'eating', alt: 'eating', height: '120px', width: '160px', class: 'photo_eating'
+        .contents-header__right
+          %p
+            = t ".eating_explanation_html"
+      .contents-main
+        %ol
+          %li
+            = t ".eating1"
+          %p
+            = t ".eating1-contents_html"
+          %li
+            = t ".eating2"
+          %p
+            = t ".eating2-contents_html"
+          %li
+            = t ".eating3"
+          %p
+            = t ".eating3-contents_html"
+          %li
+            = t ".eating4"
+          %p
+            = t ".eating4-contents_html"
+
+    - elsif @id == "2"
+      .contents-header
+        .contents-header__left
+          = image_tag 'shopping', alt: 'shopping', height: '120px', width: '160px', class: 'photo_shopping'
+        .contents-header__right
+          %p
+            = t ".shopping_explanation_html"
+      .contents-main
+        %ol
+          %li
+            = t ".shopping1"
+          %p
+            = t ".shopping1-contents_html"
+          %li
+            = t ".shopping2"
+          %p
+            = t ".shopping2-contents_html"
+          %li
+            = t ".shopping3"
+          %p
+            = t ".shopping3-contents_html"
+          %li
+            = t ".shopping4"
+          %p
+            = t ".shopping4-contents_html"
+    
+    - elsif @id == "3"
+      .contents-header
+        .contents-header__left
+          = image_tag 'bathing', alt: 'bathing', height: '120px', width: '160px', class: 'photo_bathing'
+        .contents-header__right
+          %p
+            = t ".bathing_explanation_html"
+      .contents-main
+        %ol
+          %li
+            = t ".bathing1"
+          %p
+            = t ".bathing1-contents_html"
+          %li
+            = t ".bathing2"
+          %p
+            = t ".bathing2-contents_html"
+          %li
+            = t ".bathing3"
+          %p
+            = t ".bathing3-contents_html"
+          %li
+            = t ".bathing4"
+          %p
+            = t ".bathing4-contents_html"
+
+    - elsif @id == "4"
+      .contents-header
+        .contents-header__left
+          = image_tag 'travelling', alt: 'travelling', height: '120px', width: '160px', class: 'photo_travelling'
+        .contents-header__right
+          %p
+            = t ".travelling_explanation_html"
+      .contents-main
+        %ol
+          %li
+            = t ".travelling1"
+          %p
+            = t ".travelling1-contents_html"
+          %li
+            = t ".travelling2"
+          %p
+            = t ".travelling2-contents_html"
+          %li
+            = t ".travelling3"
+          %p
+            = t ".travelling3-contents_html"
+          %li
+            = t ".travelling4"
+          %p
+            = t ".travelling4-contents_html"
+    
+    - elsif @id == "5"
+      .contents-header
+        .contents-header__left
+          = image_tag 'invited', alt: 'invited', height: '120px', width: '160px', class: 'photo_invited'
+        .contents-header__right
+          %p
+            = t ".invited_explanation_html"
+      .contents-main
+        %ol
+          %li
+            = t ".invited1"
+          %p
+            = t ".invited1-contents_html"
+          %li
+            = t ".invited2"
+          %p
+            = t ".invited2-contents_html"
+          %li
+            = t ".invited3"
+          %p
+            = t ".invited3-contents_html"
+          %li
+            = t ".invited4"
+          %p
+            = t ".invited4-contents_html"
+
+
+-# - @comments.each do |comment|
+-#   %tr
+-#     %td= comment.name
+-#     %td= comment.content
+-#     %td= link_to 'Show', comment
+-#     %td= link_to 'Edit', edit_comment_path(comment)
+-#     %td= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' }

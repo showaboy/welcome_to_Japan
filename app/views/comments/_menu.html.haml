@@ -1,0 +1,42 @@
+.main-title
+  %p.main-title__text
+    = t '.title'
+  %ul.langugage-selection
+    %li 
+      %a{:href =>''} LANGUAGE/言語選択/LANGUE
+      %ul
+        %li.english__button
+          = link_to "English", root_path(locale: 'en')
+        %li.japanses__button
+          = link_to "日本語", root_path(locale: 'ja')
+        %li.french__button
+          = link_to "Français", root_path(locale: 'fr')
+.main-menu
+  .main-menu-title
+    =t '.Menu'
+  .main-menu-items
+    %ol
+      %li
+        = link_to comment_path(id: '1') do
+          %p
+            =t '.Eating'
+      %li 
+        = link_to comment_path(id: '2') do
+          %p
+            =t '.Shopping'
+      %li 
+        = link_to comment_path(id: '3') do
+          %p
+            =t '.Bathing'
+      %li 
+        = link_to comment_path(id: '4') do
+          %p
+            =t '.Traveling'
+      %li 
+        = link_to comment_path(id: '5') do
+          %p
+            =t '.Invited'
+  .main-menu-comments
+    = link_to comment_path(id: 'new') do
+      %p
+        =t '.New'

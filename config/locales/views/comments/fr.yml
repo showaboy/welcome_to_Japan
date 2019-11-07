@@ -1,11 +1,103 @@
 fr:
-  comments:                              ## 言語名
-    index:                    ## 共通系であることを示す
-      title: "Bienvenue au Japan"
+  comments:                             
+    menu:                    
+      title: "Bienvenue au Japon"
       Menu: "Menu"
       Eating: "A table"
       Shopping: "Au magasin"
       Bathing: "Au bain"
       Traveling: "Au transport"
       Invited: "Chez des amis"
-      New Comment: "Nouveau Commentaire"
+      New: "Nouveau Commentaire"
+    show:
+      eating_explanation_html: "Vous partez en vacances au Japon mais avez peur de commettre un impair ? 
+      <br>Voici quelques points à savoir pour passer un bon séjour."
+      eating1: "\"Itadakimasu\" et \"Gochisouma\""
+      eating1-contents_html: "L’expression Itadakima signifie « je reçois » et permet d’exprimer du respect. 
+      <br>On l’a dit pour soi et non pour un tiers comme cela pourrait être le cas avec « bon appétit ». 
+      <br>On le dit avant de commencer de manger.
+      <br>Gochisouma permet de témoigner de sa gratitude envers la permet qui a préparé le repas. 
+      <br>On le dit à la fin du repas.
+      <br>Les deux se disent tout en joignant les mains en face de soi pour renforcer le sentiment.
+      <br>On peut néanmoins dire Gochisouma en partant du restaurant, en guise d’au revoir"
+      eating2: "Ne plantez pas les baguettes dans le riz !"
+      eating2-contents_html: "En effet, cela fait référence au rite funéraire bouddhiste.
+      <br>Lors de ces cérémonies on place une offrande de riz avec des baguettes plantées dans le bol près de l’autel."
+      eating3: "On peut boire l’eau du robinet."
+      eating3-contents_html: "Les normes japonais étant strictes, l’eau est parfaitement traitée et est donc tout à fait potable.
+      <br>Elle est d’ailleurs servie gratuitement dans les restaurants."
+      eating4: "On ne donne pas de pourboire."
+      eating4-contents_html: "Les prix affichés au restaurant comptent déjà le service ; quant aux serveurs, ils reçoivent un salaire fixe.
+      <br>Il n’est donc pas nécessaire de donner un pourboire, de plus, celui-ci est considéré comme impoli.  Il en va de même pour les chauffeurs de taxis.
+      <br>Cependant, les prix sont souvent affichés hors taxes, il faut donc compter un supplément de 10% au moment de payer.
+      <br>Dans les bar de style japonais appelé izakaya, vous recevez un amuse-bouche dès votre arrivée. Attention, c’est payant, il faudra le régler avec le reste de l’addition."
+      
+      shopping_explanation_html: "Quand vous allez faire votre shopping au Japon, soyons conscient qu’il y a des habitudes et des codes culturels du Japon.
+      <br>Voici l’essentiel à connaître afin de ne pas être surpris."
+      shopping1: "On ne salue pas."
+      shopping1-contents_html: "Au Japon, lors que le client entre dans un magasin, il est gratifié par un Irasshaimase qui se traduirait par Bienvenue.
+      <br>Vous remarquerez cependant que les clients ne disent pas Bonjour. Un sourire suffit pour rendre la pareille."
+      shopping2: "Beaucoup de magasins n’acceptent pas la carte bleue."
+      shopping2-contents_html: "Le Japon est un pays où l’argent liquide est le moyen de paiement le plus répandu. 
+      <br>C’est la raison pour laquelle de nombreux magasins refusent le paiement par carte, en particulier les petits commerces.
+      <br>Prenez donc l’habitude d’avoir toujours un peu de liquide sur vous pour vous éviter des déconvenues. 
+      <br>De plus, bien que le Japon, sois un pays très sûr, faites tout de même attention."
+      shopping3: "On ne négocie pas le prix."
+      shopping3-contents_html: "La culture de la négociation ou du marchandage n’existant pas au Japon, il est inutile d’essayer. Le prix affiché est fixe."
+      shopping4: "La taxe est différente selon si on mange sur place ou à emporter."
+      shopping4-contents_html: "En effet, si vous mangez sur place, la taxe sera de 10% contre 8% si vous prenez à emporter."
+
+      bathing_explanation_html: "Vous trouverez au Japon de très bonne sources thermales. Si vous en avez l’occasion, n’hésitez pas à y aller.
+      <br>Il y a cependant certaines règles à respecter afin de se baigner dans les règles de l’art."
+      bathing1: "Avant d’entrer dans le bain,  lavez-vous."
+      bathing1-contents_html: "Il est en effet impératif de se laver le corps et les cheveux afin que l’eau reste propre et que tout le monde puisse en profiter.
+      <br>Vous trouverez donc un espace dédié à cet effet : souvent munis de douches, de miroirs et de petits tabourets, vous pourrez y faire votre toilette tranquillement."
+      bathing2: "Il ne faut pas entrer dans le bain avec la serviette."
+      bathing2-contents_html: "Pour la même raison qu’il ne faut pas entrer sans avoir pris de douche, ne mettez pas le serviette dans le bain.
+      <br>vous ne savez pas où la poser, vous pouvez toutefois la mettre sur votre tête."
+      bathing3: "Vérifiez quels onsen acceptent les tatouages."
+      bathing3-contents_html: "Il existe beaucoup de onsen qui n’acceptent pas les personnes tatouées. 
+      <br>Cela est lié à la culture des yakuza ou mafieux japonais qui se distinguent par leurs nombreux tatouages.
+      <br>Les tatouages ont donc une mauvaise image au Japon, cela donne un air intimidant.
+      <br>C’est pour cela que vous devez vérifier à l’avance si l’Onsen où vous souhaitez vous rendre interdit ou non les tatouages."
+      bathing4: "Attachez vos cheveux."
+      bathing4-contents_html: "L’idée de cheveux trempant dans l’eau du bain renvoie une image de saleté.
+      <br>Si vous avez les cheveux longs, attachez-les à l’aide d’un élastique afin qu’ils ne soient pas au contact de l’eau et de garder l’eau propre."
+
+      travelling_explanation_html: "Le Japon est un pays qui s’étale du nord jusqu’au sud et qui offre des paysages variés et magnifiques.
+      <br>Pour en profiter, vous pouvez vous y rendre en voiture ou en train.
+      <br>Afin de passer un bon voyage, il est important de respecter certaines règles élémentaires."
+      travelling1: "Faites la queue avant de monter dans le train."
+      travelling1-contents_html: "Vous remarquerez sûrement un emplacement dédié à cet effet signalés par des bandes sur les quais. 
+      <br>Laissez la priorité aux personnes qui descendent, vous pourrez ensuite rentrer dans le wagon en respectant la file."
+      travelling2: "Il existe des wagons spéciaux pour les femmes."
+      travelling2-contents_html: "Selon l’heure et le type de train, un train peut avoir un wagon dédié à l’usage des femmes afin de les protéger. 
+      <br>Il y a cependant des exceptions si vous êtes une femmes et que vous êtes accompagnés d’un enfant, d’une personne handicapé… de sexe masculin.
+      <br>Si vous êtes un homme et n’êtes pas concernés par les situations sus-mentionnées, faites attention de ne pas y entrer, il y a des marquages explicites qui indiquent si le wagon est réservé à l’usage des femmes."
+      travelling3: "Il est interdit de prendre le volant si vous avez bu de l’alcool!"
+      travelling3-contents_html: "La loi sur l’alcool au volant est particulièrement stricte au Japon.
+      <br>Même si vous ne buvez qu’une goutte, il est interdit de conduire.
+      <br>Les amendes envers les contrevenants est très stricte : vous risquez de vous faire retirer votre permis de conduire ou de payer une amende salée."
+      travelling4: "On conduit à droite."
+      travelling4-contents_html: "La conduite au Japon se fait à droite comme en Angleterre."
+
+      invited_explanation_html: "Si vous avez des connaissances au Japon, il est fort probable que vous soyez invités chez eux. 
+      <br>C’est une expérience très intéressante et enrichissante sur le point de vue culturel.
+      <br>Il y a cependant quelques règles de savoir-vivre afin de ne pas froisser le maître ou la maîtresse de maison."
+      invited1: "Respectez l’heure."
+      invited1-contents_html: "Alors qu’en France, il est accepté d’arriver en retard afin de laisser à la personne qui nous invite le soin de tout préparer.
+      <br>Ne parle-t-on d’ailleurs pas de quart d’heure de politesse ?
+      <br>Cependant, la ponctualité est très importante au Japon. Il est même encore mieux d’avoir cinq minutes d’avance. 
+      <br>Comme vous êtes attendus et que tout sera prêt à l’heure annoncée, soyez ponctuels"
+      invited2: "Si vous souhaitez venir accompagné, demandez l’autorisation."
+      invited2-contents_html: "Si vous êtes invités chez quelqu’un pour un après-midi ou une soirée, la personne qui va vous accueillir va organiser ses préparatifs en fonction du nombre exact d’invités.
+      <br>Si vous souhaitez invité quelqu’un, il est important de demander en avance l’accord de votre hôte."
+      invited3: "Portez des chaussettes propres."
+      invited3-contents_html: "Au Japon, il est d’usage de se déchausser à l’entrée.
+      <br>Etre pieds nus ou porter des chaussettes tachées, trouées serait perçu comme vulgaire. 
+      <br>Faites attention de porter des chaussettes propres et sans trou."
+      invited4: "Lorsque vous allez aux toilettes, changez de chaussons."
+      invited4-contents_html: "Une fois que vous vous êtes déchaussés à l’entrée, vous enfilerez une paire de chaussons destinés à la maison.
+      <br>Il se peut que votre hôte ait aussi une autre paire destinés à l’usage des toilettes.
+      <br>Vous les trouverez à l’entrée de ces dernières, troquez donc la paire que vous portez pour celles des toilettes. 
+      <br>Lorsque vous sortez des sanitaires, portez à nouveau la paire de chaussons pour la maison et rejoignez votre hôte."

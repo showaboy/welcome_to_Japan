@@ -1,4 +1,8 @@
 class CommentsController < ApplicationController
+  def show
+    @id = params[:id]
+  end
+
 #   before_action :set_comment, only: [:show, :edit, :update, :destroy]
 #   # GET /comments
 #   # GET /comments.json

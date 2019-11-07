@@ -1,6 +1,6 @@
 en:
   comments:
-    index:              
+    menu:              
       title: "Welcome to Japan"
       Menu: "Menu"
       Eating: "Eating"
@@ -8,4 +8,97 @@ en:
       Bathing: "Bathing(Hot spring)"
       Traveling: "Traveling(Transport)"
       Invited: "Invited(House party)"
-      New Comment: "New Comment"
+      New: "New Comment"
+    show:
+      eating_explanation_html: "You are soon going to Japan but you are afraid to do something wrong ? 
+      <br>Here are some points to know.
+      <br>We hope it will help you and enjoy your stay !"
+      eating1: "What is the meaning of \"Itadakimasu\" and \"Gochisousama\"?"
+      eating1-contents_html: "By saying Itadakimasu you show your respect to all living things which were used for your meal.
+      <br>By saying Gochisosama you show your appreciation to the person who serves, cooks, or provides the food.
+      <br>You put both of your hands in front of your chest and say them before and after the meal."
+      eating2: "Don't stick your chopsticks in a bowl of rice"
+      eating2-contents_html: "It reminds Japanese people of funerals, where a bowl of rice is left with two chopsticks standing vertically in the center.
+      <br>It is supposed to bring bad luck."
+      eating3: "You can drink tap water in Jpan"
+      eating3-contents_html: "The natioal water infrastructure in Japn is reliable and purification facilities are well-maintained.
+      <br>Generally a glass of water is served without charge in the restaurant."
+      eating4: "You don't have to tip in Japan"
+      eating4-contents_html: "The price of the meal includes a service charge in Japan. (Taxi fee is also the same system.)
+      <br>However please be aware that there is 10% of consumption tax to be added at the checkout counter.
+      <br>Also be careful at Japanese style pubs (izakaya), you receive a quick nibble that is served first which is called \"Otoshi\".
+      <br>However, Otoshi is not complimentary and is added to the bill as a cover charge at most restaurants."
+
+      shopping_explanation_html: "When you go shopping in Japan, be aware that there are some typical and cultural habits.
+      <br>Here are some essential to know so as not to be surprised."
+      shopping1: "We don't greet the store staff."
+      shopping1-contents_html: "In Japan, when customers enter a store, the store staff say \"Irasshaimase\" , which means \"Welcome\".
+      <br>You will notice that the client won't respond. A smile is enough to respond."
+      shopping2: "Many shops don't take the credit card."
+      shopping2-contents_html: "Japan is a country where the cash is the most common means of payment. 
+      <br>This is the reason why many stores refuse credit card payment, especially small shops.
+      <br>So please get in the habit of taking some cash on you to avoid inconvinience.
+      <br>Although Japan is a very safe country, be careful with your cash."
+      shopping3: "We don't negoicate the price."
+      shopping3-contents_html: "The culture of negociation or bagin of the price doesn't existe in Japan, it is useless to try. The displayed price won't change."
+      shopping4: "There is tax difference between \"eat in\" and \"take out\""
+      shopping4-contents_html: "If you eat in the restauant, the consumption tax is 10%. If you take it out, it is only 8%."
+
+      bathing_explanation_html: "There are a lot of good \"Onsen\"(hot springs) in Japan. If you have an oppotunity, please do not to hesitate try it.
+      <br>There are however some rules to respect."
+      bathing1: "Wash yourself before getting in the bathtub."
+      bathing1-contents_html: "It is necessary to wash your body and hairs so that hot water remains clean and people can enjoy it.
+      <br>You will find a dedicated space for this purpose. It is often equipped with showers, mirrors and small stools.
+      <br>You can shower and wash yourself here."
+      bathing2: "Do not dip your washrag in the communal bath."
+      bathing2-contents_html: "For the same reason that you should not soak without washing yourself, do not dip your washrag in the communal bath.
+      <br>If you don't know where to put it, please look around and do as the others do, or you alzays can put it on your head."
+      bathing3: "Check which Onsen(hot springs) allow tatoos."
+      bathing3-contents_html: "Many of Japan’s hot springs and public baths have rules against tattooed people entering the bath. 
+      <br>This is related to the culture of Japanese yakuza who are distinguished by their many tattoos.
+      <br>So tatoos have a bad image in Japan and they are considered as an intimidating things.
+      <br>This is why you should ckeck if the Onsen, where you wish to go, allows persson with tatoos access to the bath."
+      bathing4: "Tie your hairs."
+      bathing4-contents_html: "Soaking your hairs in the bath gives a dirty impression for the others .
+      <br>If you have long hair, please tie them with hair elastic to avoid your hairs touching the bath and keep it clean."
+
+      travelling_explanation_html: "Japan is a country that stretches from north to south and offers varied and beautiful landscapes.
+      <br>To enjoy it, you can get there by car or train.
+      <br>In order to have a good trip, it is important to respect some rules."
+      travelling1: "Stand in line before getting on the train."
+      travelling1-contents_html: "You will surely notice a dedicated space for this purpose, which is indicated on the groud of platform. 
+      <br>Please wait for passengers to get off the train, and then board the train in order from the front of the line. 
+      <br>Do not cut in front of other passengers."
+      travelling2: "Designating women-only cars exist in the trains."
+      travelling2-contents_html: "To protect female passengers from unwanted attention when they travel, some Japanese rail companies have started designating women-only cars in their trains. 
+      <br>Platforms and train doors are marked with signs indicating boarding areas for the cars, and the days and times when the cars are women-only. .
+      <br>Though intended to be exclusive to women, most train operators in Japan allow male elementary school pupils, disabled persons, and their assistants to board women-only cars.."
+      travelling3: "Driving in Japan under the influence of alcohol is strictly prohibited."
+      travelling3-contents_html: "The law on drink-driving is particularly strict in Japan.
+      <br>Please know that it is prohibited to drink even one beer and drive in Japan. 
+      <br>Drunk driving is severely punished in Japan. The fine against an offender is extremely high.
+      <br>You also risk to lose you driver licence and you can even get fired. "
+      travelling4: "Drive on the left."
+      travelling4-contents_html: "While a majority of the world drives on the right-hand side of the road, 35% of countries prefer the left. 
+      <br> Japan is one of them."
+
+      invited_explanation_html: "If you know someone living in Japan, it is probably possible that you get invited to his house. 
+      <br>To be invited to someone's house is considered a great honor in Japan, and being a guest in a Japanese home can be a great experice.
+      <br>Please let me recommend you to follow these tips in order to get as close as possible to the Japanese traditions and manners."
+      invited1: "Arrive on time."
+      invited1-contents_html: "As a foreigner who was raised in Latin America I am usually late, but I definitely do not do it in Japan.
+      <br>The host preapare all by expecting the invited arrive on time so please do not be late.
+      <br>It is better to arrive 5 minutes before than 5 minutes late. 
+      <br>Punctuality is always in style. "
+      invited2: "Ask the host in advance if you wish to take someone with you."
+      invited2-contents_html: "If you are invited to someone's place for an afternoon or evening, the person who will welcome you will organize it according to the exact number of guests.
+      <br>If you want to bring someone along with you, it is important to ask the host in advance."
+      invited3: "Put clean socks on."
+      invited3-contents_html: "In japan, you have take off shoes whn entering a house.
+      <br>You should always make sure to wear socks or stockings when visiting someone’s house, as it could be considered rude not to. 
+      <br>Be careful to put clean socks or stocking without holes."
+      invited4: "switch your slippers in the restroom."
+      invited4-contents_html: "Many Japanese homes provide slippers when entering.
+      <br>Most homes will also have separate slippers for the restroom.
+      <br>Just put on the bathroom slippers while using the toilet, and make sure to switch back into the home slippers once you have finished. 
+      <br> It should also be noted that you should take off slippers when entering a room with tatami mats."
